@@ -1,0 +1,21 @@
+div#navbar {
+    background-color: lightblue;
+    text-align: center;
+    padding: 24px;
+}
+div#navbar a {
+    color: white;
+}
+/* 
+when a "#" or "." is attached to an element name, that selector
+is declaring a condition. Only if that element has the attributes attcached
+will the css rule apply.
+
+when there isa space between two or more element names in a selector,
+you are saying that the items to the right of each space are general 
+desendants (children) of the items to the left of the space.
+
+when a selector is using ">" you are declaring that the items to the right
+of the greater than signs are direct/first descendants(children) of the items
+to the left.
+*/
