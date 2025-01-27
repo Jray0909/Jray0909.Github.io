@@ -5,17 +5,51 @@ div#navbar {
 }
 div#navbar a {
     color: white;
+    transition: font-size 0.5s, color 2.5s;
+}
+div#navbar a:hover {
+    font-size: 24px;
+    color: rgb(221, 21, 194);
+}
+
+p a {
+    color: limegreen;
+    font-weight: bold;
+}
+
+p.warning a {
+    color: hotpink;
+}
+p.warning {
+    color: darkblue;
+}
+
+ul {
+    color: orange;
+}
+
+ul a {
+    color: red;
 }
 /* 
 when a "#" or "." is attached to an element name, that selector
 is declaring a condition. Only if that element has the attributes attcached
 will the css rule apply.
 
-when there isa space between two or more element names in a selector,
+when there is a space between two or more element names in a selector,
 you are saying that the items to the right of each space are general 
 desendants (children) of the items to the left of the space.
 
 when a selector is using ">" you are declaring that the items to the right
 of the greater than signs are direct/first descendants(children) of the items
 to the left.
+
+A basic HTML element selector has a specific level of 0-0-1.
+Each additional basic HTML element will add 0-0-1
+
+If an ID is involved, a single ID level is set to 1-0-0.
+so, for each ID involved that is 1-0-0
+
+If a class is involved, a single class is set to 0-1-0.
+so, for each class that is 0-1-0.
 */
