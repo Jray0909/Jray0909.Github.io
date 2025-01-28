@@ -28,7 +28,7 @@ img {
 
 img {
     width: 100%;
-    object-fit: fill;
+    object-fit: cover;
 }
 #frame-2 {
     border: 0px outset black;
