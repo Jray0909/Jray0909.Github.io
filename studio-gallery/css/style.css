@@ -31,14 +31,13 @@ img {
     object-fit: fill;
 }
 #frame-2 {
-    border: 15px outset black;
-    margin: 70px 12px 0px;
+    border: 0px outset black;
+    margin: 90px 12px 0px;
     box-shadow: -2px 4px 4px #000000;
 }
 #frame-2 div {
     background-color: rgb(111, 122, 69);
     padding: 10px;
-    box-shadow: inset -1px 1px 2px #000000;
 }
 #frame-2 p {
     color: wheat;
