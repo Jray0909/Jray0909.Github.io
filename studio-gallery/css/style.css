@@ -13,11 +13,11 @@ img {
 
 #frame-1 {
     border: 10px outset white;
-    margin: 70px 12px 0px;
+    margin: 100px 12px 0px;
     box-shadow: -2px 2px 2px #444;
 }
 #frame-1 div {
-    background-color: antiquewhite;
+    background-color: gray;
     padding: 10px;
     box-shadow: inset -1px 1px 2px #444;
 }
@@ -28,21 +28,21 @@ img {
 
 img {
     width: 100%;
-    object-fit: cover;
+    object-fit: fill;
 }
 #frame-2 {
     border: 15px outset black;
     margin: 70px 12px 0px;
-    box-shadow: -2px 4px 4px #444;
+    box-shadow: -2px 4px 4px #000000;
 }
 #frame-2 div {
-    background-color: antiquewhite;
-    padding: 12px;
-    box-shadow: inset -1px 1px 2px #444;
+    background-color: rgb(111, 122, 69);
+    padding: 10px;
+    box-shadow: inset -1px 1px 2px #000000;
 }
-#frame-2 img {
-    width: 90px;
-    display: block;
+#frame-2 p {
+    color: wheat;
+    text-decoration: underline;
 }
 
 img {
@@ -51,11 +51,11 @@ img {
 }
 #frame-3 {
     border: 10px outset white;
-    margin: 70px 12px 0px;
+    margin: 100px 12px 0px;
     box-shadow: -2px 2px 2px #444;
 }
 #frame-3 div {
-    background-color: antiquewhite;
+    background-color: gray;
     padding: 10px;
     box-shadow: inset -1px 1px 2px #444;
 }
