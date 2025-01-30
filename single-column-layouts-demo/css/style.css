@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+/* 
+    For ALL single column layouts:
+    -You need a width, the value must be less than 100%.
+    -You need a Min-Width AND/OR a Max-Width, the value must be an absolute unit.
+
+    For Right aligned single column layouts: 
+    -In addition to the abouve, you need a margin-left with a value of auto.
+
+    For Center aligned single column layouts: 
+    -You will instead use a short-hand margin in addition to the other requirements.
+    the top and bottom value are up to you, but the Left and Right value
+    must be set to auto.
+ */
+.single-column {
+    width: 50%;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+.light-container {
+    background-color: lightgreen;
+    padding: 48px 0px;
+}
+.dark-container {
+    background-color: darkgreen;
+    color: white;
+    padding: 48px 0px;
+}
