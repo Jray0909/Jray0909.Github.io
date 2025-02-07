@@ -1,0 +1,137 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+* {
+    box-sizing: border-box;
+}
+#pokemon-card-1 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 540px;
+    background: linear-gradient(
+        green, 
+        rgb(169, 196, 139), 
+        green
+    );
+    margin-top: 18px;
+    border: 15px solid rgb(240, 205, 7);
+    border-radius: 8px;
+    padding: 0px 15px 0px 15px;
+}
+.pokemon-header .name {
+    margin: 20px 0px 0px 0px;
+}
+.pokemon-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 120%;
+    align-items: baseline;
+    margin: 0px;
+}
+#pokemon-card-1 img {
+    border: 5px solid rgb(233, 184, 25);
+    vertical-align: top;
+}
+.details {
+    font-weight: bold;
+    font-size: small;
+    font-style: italic;
+    background: linear-gradient(
+        rgb(122, 105, 4), 
+        rgb(240, 209, 36),
+        rgb(122, 105, 4)
+    );
+    margin-top: 5px;
+}
+.attack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    border-bottom: 2px solid;
+}
+.data {
+    border: 1px solid goldenrod;
+    margin-top: 5px;
+}
+
+#pokemon-card-2 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 540px;
+    background: linear-gradient(
+        green, 
+        rgb(169, 196, 139), 
+        green
+    );
+    margin-top: 18px;
+    margin-left: 18px;
+    border: 15px solid rgb(240, 205, 7);
+    border-radius: 8px;
+    padding: 0px 15px 0px 15px;
+}
+#pokemon-card-2 img {
+    border: 5px solid rgb(233, 184, 25);
+    vertical-align: top;
+}
+
+#pokemon-card-3 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 540px;
+    background: linear-gradient(
+        rgb(240, 138, 6), 
+        rgb(212, 56, 8), 
+        rgb(241, 132, 7)
+    );
+    margin-top: 18px;
+    margin-left: 18px;
+    border: 15px solid rgb(240, 205, 7);
+    border-radius: 8px;
+    padding: 0px 15px 0px 15px;
+}
+#pokemon-card-3 img {
+    border: 5px solid rgb(233, 184, 25);
+    vertical-align: top;
+}
+.attack.description {
+    align-items: center;
+}
+
+#pokemon-card-4 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 540px;
+    background: linear-gradient(
+        rgb(240, 138, 6), 
+        rgb(212, 56, 8), 
+        rgb(241, 132, 7)
+    );
+    margin-top: 18px;
+    margin-left: 18px;
+    border: 15px solid rgb(240, 205, 7);
+    border-radius: 8px;
+    padding: 0px 10px 0px 10px;
+}
+#pokemon-card-4 img {
+    border: 5px solid rgb(233, 184, 25);
+    vertical-align: top;
+    width: 300px;
+    margin-left: 10px;
+}
+#pokemon-card-4 h2 {
+    display: flex;
+    vertical-align: baseline;
+    padding: 0px 10px 0px 10px;
+}
