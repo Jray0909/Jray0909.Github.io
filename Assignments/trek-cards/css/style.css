@@ -15,6 +15,7 @@
     width: 350px;
     background-color: rgb(224, 241, 224);
     margin-top: 16px;
+    box-shadow: 2px 7px 10px #444;
 }
 .card-style-1 img {
     width: 100%;
@@ -42,6 +43,7 @@
     background-color: rgb(224, 241, 224);
     margin-top: 16px;
     margin-left:15px;
+    box-shadow: 2px 7px 10px #444;
 }
 #trek-card-2 img {
     width: 100%;
@@ -69,6 +71,7 @@
     background-color: rgb(224, 241, 224);
     margin-top: 16px;
     margin-left:15px;
+    box-shadow: 2px 7px 10px #444;
 }
 #trek-card-3 img {
     width: 100%;
@@ -96,6 +99,7 @@
     background-color: rgb(224, 241, 224);
     margin-top: 16px;
     margin-left:15px;
+    box-shadow: 2px 7px 10px #444;
 }
 #trek-card-4 img {
     width: 100%;

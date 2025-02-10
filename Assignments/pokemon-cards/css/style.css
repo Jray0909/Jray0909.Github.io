@@ -111,22 +111,16 @@
 #pokemon-card-4 {
     display: flex;
     flex-direction: column;
-    width: 350px;
-    height: 540px;
-    background: linear-gradient(
-        rgb(240, 138, 6), 
-        rgb(212, 56, 8), 
-        rgb(241, 132, 7)
-    );
     margin-top: 18px;
     margin-left: 18px;
+    width: 350px;
+    height: 540px;
+    background-color: rgb(123, 202, 228);
     border: 15px solid rgb(240, 205, 7);
     border-radius: 8px;
-    padding: 0px 10px 0px 10px;
 }
 #pokemon-card-4 img {
     border: 5px solid rgb(233, 184, 25);
-    vertical-align: top;
     width: 300px;
     margin-left: 10px;
 }
