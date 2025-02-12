@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.dark-container {
+    background-color: black;
+    padding: 48px 0px;
+}
+.single-column {
+    width: 70%;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+#hero {
+    background-image: url("../images/typewriter-hero.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    margin-bottom: 0px;
+}
+#hero h1 {
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    padding-bottom: 450px;
+    left: 3%;
+}
+#hero h4 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    padding-bottom: 170px;
+    left: 30%;
+}
+#hero a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: orangered;
+    color: black;
+    text-decoration: none;
+    padding: 14px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 20px;
+    position: absolute;
+    right: 39%;
+    top: 91%;
+}
+#layout h1 {
+    background-color: black;
+    padding: 100px;
+    margin-bottom: 0px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    color: orangered;
+}
+.vertical-masonry-gallery {
+    background-color: black;
+    columns: 3 auto;
+    column-gap: 14px;
+}
+.vertical-masonry-gallery img {
+    width: 100%;
+    margin-bottom: 24px;
+}
