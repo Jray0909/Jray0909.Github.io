@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
 
 * {
     box-sizing: border-box;
@@ -8,4 +8,100 @@ body {
     font-family: "Ephesis", serif;
     font-weight: 400;
     font-style: normal;
+}
+.light-container {
+    background-color: black;
+    padding: 48px 0px;
+}
+.single-column {
+    width: 70%;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+#hero {
+    height: 60vh;
+    background-image: url("../images/urban-hi-res-1ui7.jpg");
+    background-size: cover;
+    background-position: center center;
+    border: 2px solid rgb(7, 7, 150);
+    box-shadow: 2px 2px 50px rgb(5, 5, 138);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    margin-bottom: 100px;
+}
+#hero h1 {
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    left: 26%;
+    bottom: 15%;
+}
+#hero a {
+    font-size: 40px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color: rgb(28, 26, 172);
+    text-decoration: none;
+    padding-right: 50px;
+    padding-left: 50px;
+    position: absolute;
+    right: 37%;
+    bottom: 10%;
+    box-shadow: 2px 2px 30px rgb(7, 4, 182);
+}
+#layout h1 {
+    padding-top: 80px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+.vertical-masonry-gallery {
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(7, 7, 139);
+    box-shadow: 0px 0px 90px rgb(4, 32, 153);
+    columns: 3 auto;
+    column-gap: 14px;
+}
+.vertical-masonry-gallery img {
+    width: 100%;
+    margin-bottom: 24px;
+    object-fit: cover;
+}
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+#card-section {
+    font-family: sans-serif;
+    color: white;
+    padding: 48px;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    flex: 1;
+    padding: 0px 50px 30px 50px;
+    text-align: center;
+    margin: 50px 50px 50px;
+    border: 1px solid rgb(8, 8, 163);
+    box-shadow: 15px 15px 30px rgb(5, 5, 141);
+}
+.card h3 {
+    font-size: 36px;
+    padding: 30px;
+}
+.card a {
+    border: 1px solid rgb(14, 14, 216);
+    border-radius: 20px 20px;
+    box-shadow: 5px 5px 10px rgb(12, 12, 209);
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: white;
 }
