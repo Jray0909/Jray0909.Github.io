@@ -216,9 +216,6 @@ a {
     #nav {
         flex-direction: column;
     }
-    #nav-links {
-        flex-direction: column;
-    }
     #hero h1 {
         font-size: 58px;
     }
