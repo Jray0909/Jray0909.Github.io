@@ -14,18 +14,201 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px auto;
 }
-#navbar h1 {
+#navbar #logo {
+    font-size: 34px;
     color: white;
-    border: 2px solid rgb(255, 255, 255);
+    border: 8px solid rgb(137, 148, 148);
     border-radius: 40px 0px 40px 0px;
     padding: 15px;
     margin-left: 50px;
+    margin-right: auto;
 }
 #navbar a {
-    color: rgb(0, 0, 0);
-    border: 1px solid rgb(255, 255, 255);
-    background-color: white;
-    padding: 10px;
+    display: inline-block;
+    color: white;
+    padding: 24px;
     text-decoration: none;
+}
+.dropdown-container {
+    position: relative;
+}
+.dropdown-menu {
+    position: absolute;
+    background-color: rgb(73, 45, 7);
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 1s
+    ;
+}
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+#navbar .dropdown-menu a:hover {
+    color: rgb(240, 136, 17);
+    background-color: transparent;
+}
+
+.single-column-1 {
+    background-image: url("../images/AdoptMe-1.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 1440px;
+    max-width: 1440px;
+    min-width: 325px;
+    margin: 0px auto;
+    text-align: center;
+    margin: 0px auto;
+}
+.single-column-1 h1 {
+    padding-top: 58px;
+    color: rgb(218, 218, 219);
+    font-size: 60px;
+}
+.single-column-1 h3 {
+    font-size: 38px;
+    color: rgb(240, 136, 17);
+    text-align: center;
+    padding-top: 460px;
+}
+.single-column-2 {
+    height: 800px;
+    min-width: 600px;
+    max-width: 1440px;
+    min-width: 325px;
+    margin: 0px auto;
+}
+.side-by-side-2 {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+.side-by-side-2 .image-container-2 {
+    flex: 1;
+}
+.side-by-side-2 .text-container-2 {
+    flex: 1;
+    padding: 36px;
+    text-align: center;
+}
+.side-by-side-2 .image-container-2 img {
+    width: 500px;
+    height: 650px;
+    border: 2px solid black;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px rgb(71, 71, 71);
+}
+.text-container-2 h1 {
+    text-decoration: underline;
+    font-size: 40px;
+    color: rgb(240, 136, 17);
+}
+.text-container-2 p {
+    font-size: 24px;
+    margin-bottom: 60px;
+    color: black;
+}
+.text-container-2 a {
+    border: 2px solid rgb(137, 148, 148);
+    border-radius: 100px;
+    box-shadow: 4px 4px 4px rgb(71, 71, 71);
+    padding: 12px 40px;
+    background-color: rgb(137, 148, 148);
+    color: white;
+}
+
+.single-column-3 {
+    height: 800px;
+    min-width: 600px;
+    max-width: 1200px;
+    min-width: 325px;
+    margin: 0px auto;
+}
+.side-by-side-3 {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+.side-by-side-3 .image-container-3 {
+    flex: 1;
+}
+.side-by-side-3 .text-container-3 {
+    flex: 1;
+    padding: 36px;
+    text-align: center;
+}
+.side-by-side-3 .image-container-3 img {
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px rgb(71, 71, 71);
+}
+.text-container-3 h1 {
+    text-decoration: underline;
+    font-size: 40px;
+    color: rgb(240, 136, 17);
+}
+.text-container-3 p {
+    font-size: 24px;
+    margin-bottom: 60px;
+}
+.text-container-3 a {
+    border: 2px solid rgb(137, 148, 148);
+    border-radius: 100px;
+    box-shadow: 4px 4px 4px rgb(71, 71, 71);
+    padding: 12px 40px;
+    background-color: rgb(137, 148, 148);
+    color: white;
+}
+
+.single-column-4 {
+    height: 800px;
+    min-width: 600px;
+    max-width: 1200px;
+    min-width: 325px;
+    margin: 0px auto;
+}
+.side-by-side-4 {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+.side-by-side-4 .image-container-4 {
+    flex: 1;
+}
+.side-by-side-4 .text-container-4 {
+    flex: 1;
+    padding: 36px;
+    text-align: center;
+}
+.side-by-side-4 .image-container-4 img {
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px rgb(71, 71, 71);
+}
+.text-container-4 h1 {
+    text-decoration: underline;
+    font-size: 40px;
+    color: rgb(240, 136, 17);
+}
+.text-container-4 p {
+    font-size: 24px;
+    margin-bottom: 60px;
+}
+.text-container-4 a {
+    border: 2px solid rgb(137, 148, 148);
+    border-radius: 100px;
+    box-shadow: 4px 4px 4px rgb(71, 71, 71);
+    padding: 12px 40px;
+    background-color: rgb(137, 148, 148);
+    color: white;
 }
