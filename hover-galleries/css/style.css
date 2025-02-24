@@ -28,7 +28,7 @@ body {
         background-color 0.5s,
         box-shadow 0.5s,
         transform 0.5s
-    ;
+        ;
 }
 #card1 h2 {
     font-size: 38px;
@@ -45,7 +45,7 @@ body {
         background-color 0.5s,
         box-shadow 0.5s,
         transform 0.5s
-    ;
+        ;
 }
 #card2 h2 {
     font-size: 38px;
@@ -62,7 +62,7 @@ body {
         background-color 0.5s,
         box-shadow 0.5s,
         transform 0.5s
-    ;
+        ;
 }
 #card3 h2 {
     font-size: 38px;
@@ -82,7 +82,7 @@ body {
         background-color 0.5s,
         box-shadow 0.5s,
         transform 0.5s
-    ;
+        ;
 }
 #card4 h2 {
     font-size: 38px;
@@ -160,8 +160,8 @@ body {
     transform: translateY(0px);
 }
 #card7 h2 {
-   font-size: 40px;
-   color: rgb(80, 206, 7);
+    font-size: 40px;
+    color: rgb(80, 206, 7);
 }
 #card7 a {
     text-decoration: none;
@@ -201,4 +201,97 @@ body {
     box-shadow: 4px 4px 4px orange;
     padding: 2px;
     margin-top: 36px;
+}
+
+#content-container-3 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+}
+#card9 h2 {
+    color: blue;
+    font-size: 36px;
+}
+#card9:hover a {
+    padding: 10px 40px 10px 40px;
+    background-color: rgb(185, 212, 216);
+    box-shadow: 5px 5px 5px rgb(6, 4, 116);
+    transform: translateY(-4px);
+}
+#card9 a {
+    display: block;
+    transition: 
+        background-color 0.9s,
+        box-shadow 0.9s,
+        transform 0.9s
+        ;
+}
+
+#card10 h2 {
+    color: rgb(238, 111, 206);
+    font-size: 36px;
+}
+#card10:hover a {
+    padding: 15px 80px 15px 80px;
+    background: linear-gradient(
+        rgb(255, 123, 0),
+        yellow,
+        rgb(233, 98, 215)
+    );
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    transform: translateY(-4px);
+    border-radius: 34px;
+}
+#card10 a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    transition: 
+        background-color 0.3s,
+        box-shadow 0.3s,
+        transform 0.3s
+        ;
+}
+
+#card11 h2 {
+    color: orange;
+    font-size: 36px;
+}
+#card11:hover a {
+    padding: 10px 40px 10px 40px;
+    border: 2px dashed orange;
+    box-shadow: 5px 5px 5px rgb(255, 61, 2);
+    transform: translateY(-4px);
+}
+#card11 a {
+    display: block;
+    text-decoration: none;
+    color: orange;
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s
+        ;
+}
+
+#card12 h2 {
+    color: rgb(73, 160, 109);
+    font-size: 36px;
+}
+#card12:hover a {
+    padding: 6px 40px 6px 40px;
+    border: 5px dotted rgb(73, 160, 109);
+    box-shadow: 2px 2px 2px orange;
+    transform: translateY(-4px);
+}
+#card12 a {
+    display: block;
+    border-radius: 40px;
+    text-decoration: none;
+    color: rgb(243, 174, 26);
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s
+        ;
 }
