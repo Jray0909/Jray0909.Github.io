@@ -1,0 +1,46 @@
+@import url("https://use.typekit.net/xal8djd.css");
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+
+#navbar {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e6e7e8;
+    border-bottom: 8px solid #662D91;
+}
+#navbar a {
+    color: #2B3990;
+    text-decoration: none;
+    padding: 24px;
+}
+#navbar img {
+    width: 200px;
+}
+#navbar #logo {
+    margin-right: auto;
+}
+#navbar .btn {
+    background-color: white;
+    color: #a32090;
+    border-radius: 100px;
+    border: 2px solid #a32090;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+#navbar .btn:hover {
+    background-color: #939598;
+}
+#hero {
+    
+}
