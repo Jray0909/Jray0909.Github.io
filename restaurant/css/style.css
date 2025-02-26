@@ -25,6 +25,7 @@ body {
     position: relative;
 }
 .dropdown-menu {
+    background-color: #2B3990;
     position: absolute;
     visibility: hidden;
     opacity: 0;
@@ -32,6 +33,9 @@ body {
 .dropdown-container:hover .dropdown-menu {
     opacity: 1;
     visibility: visible;
+}
+#navbar .dropdown-menu a:hover {
+    color: white;
 }
 #navbar img {
     width: 200px;
@@ -99,7 +103,7 @@ body {
     border-radius: 100px;
     border: 2px solid #a32090;
     padding: 10px 20px;
-    font-size: 20px;
+    font-size: 28px;
     font-weight: bold;
     min-width: 150px;
     margin-left: 135px;
