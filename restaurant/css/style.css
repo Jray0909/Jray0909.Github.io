@@ -25,7 +25,7 @@ body {
     position: relative;
 }
 .dropdown-menu {
-    background-color: #2B3990;
+    background-color: #d2d7dd;
     position: absolute;
     visibility: hidden;
     opacity: 0;
@@ -115,6 +115,7 @@ body {
 .side-by-side {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: 48px 0px;
 }
 .side-by-side .image-container {
@@ -128,8 +129,22 @@ body {
     width: 100%;
 }
 
-.side-by-side .text-container h3 {
+.side-by-side .text-container h1 {
     font-size: 48px;
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.side-by-side .text-container p {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    margin: 95px;
+}
+.side-by-side .text-container h3 {
+    font-size: 28px;
+    text-align: center;
 }
 .side-by-side .text-container a {
     font-size: 28px;
@@ -144,4 +159,54 @@ body {
 }
 .text-container a:hover {
     background-color: #939598;
+}
+.single-column-2 .text-container h3 {
+    color: white;
+    text-align: center;
+}
+.single-column-2 .side-by-side {
+    background-color: #662D91;
+    padding: 34px;
+    margin-top: 0px;
+}
+.single-column-2 .side-by-side img {
+    border-radius: 30px;
+}
+
+#centered-column {
+    width: 100%;
+    max-width: 1440px;
+    margin: 48px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.card {
+    width: 350px;
+    border: 2px solid #662D91;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 4px 4px 4px rgb(39, 39, 39);
+    background-color: #662D91;
+}
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+.card h2 {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 12px;
+}
+.card h3 {
+    color: white;
+    font-size: 14px;
+    text-align: end;
+    text-decoration: underline;
+    margin-top: 12px;
 }
